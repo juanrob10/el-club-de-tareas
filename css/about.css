@@ -1,6 +1,6 @@
 .about-section {
     padding: 8rem 2rem;
-    background: linear-gradient(180deg, #FCE4EC 0%, #FAD2E0 15%, #FAD2E0 85%, #FCE4EC 100%);
+    background: linear-gradient(180deg, #E8F5E9 0%, #C8E6C9 15%, #C8E6C9 85%, #E8F5E9 100%);
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -41,7 +41,7 @@
     display: block;
     width: 60px;
     height: 3px;
-    background-color: #FCE4EC;
+    background-color: #A5D6A7;
     margin: 1rem auto 0;
     border-radius: 2px;
 }

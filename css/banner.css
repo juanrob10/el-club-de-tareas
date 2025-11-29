@@ -1,7 +1,7 @@
 .lofi-banner {
     height: 70vh;
     width: 100%;
-    background: #FCE4EC;
+    background: #E8F5E9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +45,9 @@
     color: #2c3e50;
     letter-spacing: 1px;
     text-shadow:
-        0 0 5px rgba(238, 192, 200, 0.5),
-        0 0 10px rgba(238, 192, 200, 0.3),
-        0 0 15px rgba(144, 202, 249, 0.2);
+        0 0 5px rgba(165, 214, 167, 0.5),
+        0 0 10px rgba(165, 214, 167, 0.3),
+        0 0 15px rgba(129, 199, 132, 0.2);
 }
 
 .banner-content p {
@@ -345,7 +345,7 @@
     top: 15%;
     left: 10%;
     font-size: 2rem;
-    color: #f48fb1;
+    color: #81C784;
     animation: twinkle 4s ease-in-out infinite;
 }
 
@@ -353,7 +353,7 @@
     bottom: 25%;
     right: 10%;
     font-size: 1.5rem;
-    color: #ce93d8;
+    color: #AED581;
     animation: twinkle 5s ease-in-out infinite reverse;
 }
 

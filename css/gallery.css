@@ -1,6 +1,6 @@
 .gallery-section {
     padding: 6rem 0;
-    background: linear-gradient(180deg, #FCE4EC 0%, #FAD2E0 15%, #FAD2E0 85%, #FCE4EC 100%);
+    background: linear-gradient(180deg, #E8F5E9 0%, #C8E6C9 15%, #C8E6C9 85%, #E8F5E9 100%);
     text-align: center;
 }
 
@@ -12,8 +12,8 @@
     position: relative;
     display: inline-block;
     text-shadow:
-        0 0 5px rgba(238, 192, 200, 0.5),
-        0 0 10px rgba(238, 192, 200, 0.3);
+        0 0 5px rgba(165, 214, 167, 0.5),
+        0 0 10px rgba(165, 214, 167, 0.3);
 }
 
 .gallery-section h2::after {
@@ -21,7 +21,7 @@
     display: block;
     width: 50%;
     height: 2px;
-    background-color: #FCE4EC;
+    background-color: #A5D6A7;
     margin: 0.5rem auto 0;
 }
 
@@ -60,8 +60,8 @@
     width: 50px;
     height: 50px;
     border: 5px solid #f3f3f3;
-    border-top: 5px solid #FCE4EC;
-    border-right: 5px solid #E8F5E9;
+    border-top: 5px solid #A5D6A7;
+    border-right: 5px solid #C8E6C9;
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }

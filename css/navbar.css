@@ -35,8 +35,10 @@
 
 .mobile-logo {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+    transform: scale(2);
+    transform-origin: center;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #f0f0f0;
@@ -56,7 +58,7 @@
 .nav-links a:hover {
     opacity: 1;
     color: #2c3e50;
-    text-shadow: 0 0 8px rgba(238, 192, 200, 0.8);
+    text-shadow: 0 0 8px rgba(165, 214, 167, 0.8);
 }
 
 .nav-links a.active {
@@ -71,7 +73,7 @@
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #eec0c8;
+    background-color: #A5D6A7;
     transition: width 0.3s ease;
 }
 
@@ -124,7 +126,7 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     background:
         radial-gradient(circle closest-side, #90CAF9 38%, #ffffff 39%, #ffffff 46%, transparent 47%),
-        conic-gradient(from -30deg, rgba(244, 143, 177, 0.4) 0deg 120deg, rgba(165, 214, 167, 0.4) 120deg 240deg, rgba(206, 147, 216, 0.4) 240deg 360deg);
+        conic-gradient(from -30deg, rgba(102, 187, 106, 0.4) 0deg 120deg, rgba(165, 214, 167, 0.4) 120deg 240deg, rgba(206, 147, 216, 0.4) 240deg 360deg);
 }
 
 #audio-icon svg {
@@ -180,8 +182,8 @@
     }
 
     .lofi-nav.scrolled .nav-logo {
-        width: 48px;
-        height: 48px;
+        width: 60px;
+        height: 60px;
         border-radius: 10px;
     }
 
@@ -204,7 +206,7 @@
         padding: 1.5rem;
         justify-content: center;
         position: relative;
-        background-color: #FCE4EC;
+        background-color: #E8F5E9;
     }
 
     .mobile-logo {

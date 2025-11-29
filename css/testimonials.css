@@ -1,6 +1,6 @@
 .testimonials-section {
     padding: 6rem 2rem;
-    background: linear-gradient(180deg, #FCE4EC 0%, #FAD2E0 15%, #FAD2E0 85%, #FCE4EC 100%);
+    background: linear-gradient(180deg, #E8F5E9 0%, #C8E6C9 15%, #C8E6C9 85%, #E8F5E9 100%);
     /* Floral White */
     text-align: center;
 }
@@ -19,7 +19,7 @@
     display: block;
     width: 50%;
     height: 2px;
-    background-color: #FCE4EC;
+    background-color: #A5D6A7;
     margin: 0.5rem auto 0;
 }
 
@@ -55,7 +55,7 @@
 
 .quote-icon {
     font-size: 5rem;
-    background: linear-gradient(135deg, #FCE4EC 0%, #E8F5E9 100%);
+    background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
