@@ -89,8 +89,8 @@ if (audioControl && audio) {
             // Ensure some minimum height if there's any sound
             if (val > 0 && barHeight < 2) barHeight = 2;
 
-            // Elegant pastel bars
-            vCtx.fillStyle = `rgb(${barHeight * 4 + 100}, 180, 200)`;
+            // Elegant pastel bars - Green variant
+            vCtx.fillStyle = `rgb(100, ${150 + barHeight * 3}, 100)`;
             vCtx.fillRect(x, visualizerCanvas.height - barHeight, barWidth, barHeight); // Draw from bottom up for more impact
 
             x += barWidth + 1;

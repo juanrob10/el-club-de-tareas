@@ -19,7 +19,7 @@
 @media (max-width: 768px) {
     :root {
         /* Typography Scale - Mobile */
-        --fs-h1: 2.5rem;
+        --fs-h1: 2rem;
         --fs-h2: 1.8rem;
         --fs-h3: 1.3rem;
         --fs-body: 1rem;
